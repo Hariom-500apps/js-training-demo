@@ -20,11 +20,12 @@ const getTea = (prepareTea, numOfCups) => {
 };
 
 // Only change code below this line
-const tea4GreenTeamFCC = null;
-const tea4BlackTeamFCC = null;
+const tea4GreenTeamFCC = getTea(prepareGreenTea,27);
+const tea4BlackTeamFCC = getTea(prepareBlackTea,13) ;
 // Only change code above this line
 
-console.log(
-  tea4GreenTeamFCC,
-  tea4BlackTeamFCC
-);
+function getOutput(){
+  document.getElementById("output1").innerText=tea4GreenTeamFCC +" "+ tea4BlackTeamFCC;
+ 
+
+}
