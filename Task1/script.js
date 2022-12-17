@@ -17,8 +17,8 @@ const getTea = (numOfCups) => {
 };
 
 // Only change code below this line
-const tea4TeamFCC = null;
+const tea4TeamFCC = getTea(40);
 // Only change code above this line
 function getOutput() {
-  document.getElementById("output").innerText = "Print your output here";
+  document.getElementById("output").innerText = tea4TeamFCC;
 }
