@@ -1,0 +1,13 @@
+{
+  "name": "task15",
+  "version": "1.0.0",
+  "description": "git-assi15",
+  "main": "script.js",
+  "scripts": {
+    "start":"parcel index.html",
+    "build":"build paecel index.html",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "hari",
+  "license": "ISC"
+}
