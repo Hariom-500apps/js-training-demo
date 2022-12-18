@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title> Mantra cipher code by Hariom</title>
+        <!--it takes mantra logo image from google-->
+        <link href="https://lh5.googleusercontent.com/-DRAwyTZePqs/AAAAAAAAAAI/AAAAAAAAAAA/W8J0R6HoCz0/s44-p-k-no-ns-nd/photo.jpg" rel="icon" type="image/ico">
+    
+    
+    </head>
+    <body style="background-color: aquamarine;margin-top: 90px; margin-left: 30%;">
+        <div id = "mydiv" style="background-color: rgb(235, 103, 15); align-content: center; width: 50%;">
+            <h1 style="margin-left: 25%;">Caesars Cipher</h1>
+
+            <lable style="font-size: x-large;"> Enter  Cipher text </lable>
+            <input type="text" placeholder="Type text..." id="myInput1" style="background-color: rgb(189, 221, 147);text-align: center; height: 20%; width: auto;font-size: larger;"><br><br>
+        
+            <lable style="font-size: x-large;"> Enter key for text </lable>
+            <input type="text" placeholder="Type key..." id="myInput2" style="background-color: rgb(189, 221, 147);text-align: center; height: 20%;font-size: larger;"><!--also oninput="getOutput()" use-->
+            <br><br>
+            <button  onclick="getOutput()" style="background-color: rgb(64, 67, 226);text-align: center; font-size: larger; margin-left: 35%;">Get Output</button>
+           <!-- <input type="button" onclick="clear()" value="Reset" style="background-color: rgb(64, 67, 226);text-align: center; font-size: larger; margin-left: 10%;">
+             <button value = "clear" type = "reset" onclick = "clearcontent('clear')">clear </button><br>
+            -->
+            <br><br><br>
+            <textarea id="output" type="result" placeholder="Normal text" style="background-color: rgb(189, 221, 147);  text-align: center;align-content: center;margin-left: 25%; height: 20px;font-size: larger; width: auto;"></textarea>
+       </div>
+        
+        <!-- Add script link -->
+        <script src="encrypt.js"></script>
+    
+    </body>
+</html>
